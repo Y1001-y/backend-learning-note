@@ -1,9 +1,10 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base:'/backend-learning-note/',
   title: 'backend-learning-note',
   description: '后端工程化课程的学习笔记',
-  base:'/backend-learning-notes/',
+
   themeConfig: {
     nav: [
       { text: '首页', link: '/' },
